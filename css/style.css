@@ -1,26 +1,27 @@
 #main-header img {
-  width: 100%;
-  height: 100%;
+   /*TODO*/
 }
 
 #main-header .port-item {
-  width: 30%;
+   /*TODO*/
 }
 
 #main-header .port-item:hover {
-  opacity: 0.8;
-  cursor: pointer;
+   /*TODO*/
 }
 
 .bg-black {
-  color: #fff;
-  background: #000;
+  /*TODO*/
 }
 
 @media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important;
-  }
+   .port-item {
+      /*TODO*/
+   }
+}
+
+div#work i {
+   font-size: 35px;
 }
 
 
@@ -75,7 +76,7 @@
    bottom: 0;
    right: 0;
    margin: auto;
-   background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+   background: #343a40 url(img/link.png) no-repeat center 20%;
    background-size:50px 50px;
    opacity:0;
    filter:alpha(opacity=0);/*For IE6 - IE8*/
@@ -84,6 +85,7 @@
 #rig li:hover .rig-overlay {
    opacity:0.8;
 }
+
 
 /* If have captions */
 .rig-text {
@@ -95,17 +97,20 @@
    width:100%;
    text-align:center;
    text-transform:capitalize;
-   font-size:18px;
-   font-weight:bold;
    font-family: 'Oswald', sans-serif;
-   font-weight:normal!important;
-   top:40%;
+   top:30%;
    color:white;
    opacity:0;
    filter:alpha(opacity=0);/*For older IE*/
    transform:translateY(-20px);
    transition:all .3s;
 }
+
+.rig-text-item {
+
+   font-size: 0.75rem;
+}
+
 #rig li:hover .rig-text {
    transform:translateY(0px);
    opacity:0.9;
